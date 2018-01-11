@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="65f160ef-507d-4767-84b7-6be1064e94e7" name="UpTone" url="http://159.203.139.155">
+        <fileTransfer host="159.203.139.155" port="10223" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/vhosts/uptonemusic.us/site" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="10223" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

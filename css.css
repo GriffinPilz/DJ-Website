@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Acme|Russo+One');
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+img#chickenLogo {
+    width: 7%;
+    height: auto;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+img#lensStuff {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    opacity: .87;
+}
+@media screen and (min-width: 1000px){
+    #navRow {
+        padding-top: 40px;
+        padding-bottom: 1000px;
+        background: url(images/UpTonePhoto.jpg) no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        width: 100%;
+        margin: 0;
+    }
+
+    #gigRow {
+        padding: 150px 0 240px 0;
+        background: url("images/lensStuffJesse.jpg");
+        height: auto;
+        background-position: center;
+        left: 0;
+        margin: 0;
+        top: 1000px;
+        width: 100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100%;
+    }
+
+    #contactRow {
+        padding: 100px 0;
+        background-image: url("images/roundImage.jpg");
+        height: auto;
+        background-position: center;
+        left: 0;
+        margin: 0;
+        top: 2000px;
+        width: 100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    img#UptoneLogo {
+        width: 50%;
+        height: auto;
+        position: absolute;
+        left: 25%;
+        top: 50%;
+        opacity: .87;
+    }
+
+    .fa {
+        font-size: 3.4em!important;
+        transition: transform .3s ease-in-out, color .3s ease-in;
+        padding: 3px 10px;
+    }
+
+    .fa:hover {
+        transform: scale(1.8);
+        opacity: 0.9;
+    }
+
+    .fa-facebook, .fa-instagram, .fa-spotify {
+        background: transparent;
+        color: dimgray;
+    }
+
+    .fa .fa-spotify, .fa .fa-facebook , .fa .fa-instagram {
+        padding: 2px;
+        font-size: 40px;
+        width: 40px;
+        text-align: center;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 999px){
+    #navRow {
+        padding-top: 40px;
+        padding-bottom: 500px;
+        background: #8e9eab;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        width: 100%;
+        margin: 0;
+    }
+
+    #gigRow {
+        padding: 150px 0 240px 0;
+        background: #8e9eab;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        margin: 0;
+        top: 1000px;
+        width: 100%;
+    }
+
+    #contactRow {
+        padding: 100px 0;
+        background: #8e9eab;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        margin: 0;
+        width: 100%;
+    }
+
+
+    img#UptoneLogo {
+        width: 50%;
+        height: auto;
+        position: absolute;
+        left: 25%;
+        top: 20%;
+        opacity: .87;
+    }
+
+    .fa {
+        font-size: 3em!important;
+        transition: transform .3s ease-in-out, color .3s ease-in;
+        padding: 3px 50px;
+    }
+
+    .fa:hover {
+        transform: scale(1);
+        opacity: 0.9;
+    }
+
+    .fa-facebook, .fa-instagram, .fa-spotify {
+        background: transparent;
+        color: dimgray;
+    }
+
+    .fa .fa-spotify, .fa .fa-facebook , .fa .fa-instagram {
+        padding: 2px;
+        font-size: 40px;
+        width: 40px;
+        text-align: center;
+        text-decoration: none;
+    }
+}
+
+a {
+    color: #262626;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+}
+
+a:hover {
+    font-size: 3em;
+    text-decoration: none;
+    color: #262626;
+}
+
+a:focus {
+    text-decoration: none;
+    color: #262626;
+}
+
+h1 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 3em;
+    margin-bottom: 40px;
+    color: #262626;
+}
+
+p {
+    font-family: 'Acme', sans-serif;
+    font-size: 2em;
+    color: #262626;
+    margin-bottom: 30px;
+}
+
+#AboutRow {
+    padding: 90px 0;
+    margin: 0;
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#monoPhoto {
+    width: 90%;
+    height: auto;
+    margin: 60px 50px;
+}
+
+
+h2 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 5em;
+    color: #262626;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    opacity: .87;
+}
+
+.col-lg-3 {
+    background-color: rgba(255,255,255,.5);
+    margin: 30px 40px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgba(255,255,255,.05);
+}
+
+.col-lg-3#testS {
+    margin: 30px 40px 30px 80px;
+    background-color: rgba(255,255,255,.5);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgba(255,255,255,.05);
+}
+
+a#GL1 {
+    color: #547181;
+    font-family: 'Russo One', sans-serif;
+    font-size: 1em!important;
+    margin-top: 30px;
+}
+
+a#GL1:hover {
+    font-size: 1em;
+    text-decoration: underline;
+    color: #547181;
+}
+
+a#GL2:hover {
+    font-size: 1em;
+    text-decoration: underline;
+    color: #547181;
+}
+
+a#GL2 {
+    color: #547181;
+    font-family: 'Russo One', sans-serif;
+    font-size: 1em;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #547181;
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.8em;
+    margin-top: 30px;
+}
+
+h4 {
+   color: #C84335;
+    font-size: 2.3em;
+    font-weight: 700;
+    opacity: .87;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2#myMusic {
+    padding-left: 2.5em;
+}
+
+#musicRow {
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: auto;
+    background-position: center;
+    left: 0;
+    margin: 0;
+    top: 2000px;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1#desch1 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 3em;
+}
+
+#fbContact, #emContact {
+    text-decoration: underline;
+    color: rgb(0,80,180);
+}
